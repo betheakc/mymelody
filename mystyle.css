@@ -38,9 +38,14 @@ body{
     text-decoration: none;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a: hover {
     background-color: #5C6A85;
     color: black;
+}
+
+.center-head{
+  text-align: center;
+    padding: 20px;
 }
 
 title{
