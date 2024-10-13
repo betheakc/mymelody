@@ -3,8 +3,8 @@ body{ /* This changes the body background color to blue with the text being blac
   background-color: #2E3F60;
   color: black;
   font-family: 'Helvetica', sans-serif;
-  margin:0;
-  padding: 0;
+  margin:0px;
+  padding: 0px;
 }
 
 .navbar{/* This sets the color for the navigation bar*/
@@ -15,10 +15,10 @@ body{ /* This changes the body background color to blue with the text being blac
 .navbar ul{ /* This sets the color,list style, and overal display of the navigation bars unordered list form*/
   color: #414A5C;
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
   display: flex;
   justify-content: flex-start;
-  margin: 0;
+  margin: 0px;
 }
 
 .navbar li{ /* This bods all the text in the navigation list and sets the bottom margin */
@@ -53,7 +53,7 @@ a{ /* This colors the links*/
 
 title{ /* This colors the title and sets the font size to 36 */
   color: grey;
-  font-size: 36;
+  font-size: 36px;
 }
 
 h2{
@@ -62,4 +62,5 @@ h2{
 
 label{
   font-weight: bold;
+  font-sze: 24px;
 }
