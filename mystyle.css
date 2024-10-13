@@ -45,8 +45,11 @@ body{
 
 .center-head{
   text-align: center;
-    padding: 20px;
 }
+a{
+  color: #243046
+}
+
 
 title{
   color: grey;
