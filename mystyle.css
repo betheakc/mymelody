@@ -16,11 +16,18 @@ body{
   color: #414A5C;
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
 }
 
 .navbar li{
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+.navbar ul li {
+    margin-right: 20px;
 }
 
 .navbar ul li a {
@@ -34,6 +41,11 @@ body{
 .navbar ul li a:hover {
     background-color: #5C6A85;
     color: black;
+}
+
+title{
+  color: grey;
+  font-size: 36;
 }
 
 h2{
