@@ -7,14 +7,32 @@ body{
   padding: 0;
 }
 
-ul{
+.navbar{
+  background-color: blue;
+  overflow:hidden;
+}
+
+.navbar ul{
   color: greyblue;
   list-style-type: none;
   padding: 0;
 }
 
-li{
+.navbar li{
   margin-bottom: 10px;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 h2{
