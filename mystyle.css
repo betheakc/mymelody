@@ -60,7 +60,7 @@ h2{ /* Changes heading 2 color to black */
   color: black;
 }
 
-label{
+.bold-label{
   font-weight: bold;
   font-sze: 24px;
 }
