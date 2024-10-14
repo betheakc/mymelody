@@ -38,11 +38,6 @@ body{ /* This changes the body background color to blue with the text being blac
     text-decoration: none;
 }
 
-.navbar ul li a: hover {/*This is the color that shows when you hover over the bar */
-    background-color: #5C6A85;
-    color: black;
-}
-
 .center-head{ /* This centers the heading and text with it from the HTML*/
   text-align: center;
 }
@@ -60,12 +55,12 @@ h2{ /* Changes heading 2 color to black */
   color: black;
 }
 
-.bold-label{
+.bold-label{ /* Bolds the labels and makes the font size 24 pixels */
   font-weight: bold;
-  font-sze: 24px;
+  font-size: 24px;
 }
 
-.left-image{
-  float: left; /* Aligns the image to the left */
-  margin-right: 15px; /* Adds space between the image and text */
+.left-image{/* Aligns the image to the left and adds a space between them */
+  float: left; 
+  margin-right: 15px; 
 }
