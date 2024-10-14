@@ -60,7 +60,3 @@ h2{ /* Changes heading 2 color to black */
   font-size: 24px;
 }
 
-.left-image{/* Aligns the image to the left and adds a space between them */
-  float: left; 
-  margin-right: 15px; 
-}
