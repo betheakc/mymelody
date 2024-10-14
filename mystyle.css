@@ -56,11 +56,16 @@ title{ /* This colors the title and sets the font size to 36 */
   font-size: 36px;
 }
 
-h2{
+h2{ /* Changes heading 2 color to black */
   color: black;
 }
 
 label{
   font-weight: bold;
   font-sze: 24px;
+}
+
+.left-image{
+  float: left; /* Aligns the image to the left */
+  margin-right: 15px; /* Adds space between the image and text */
 }
