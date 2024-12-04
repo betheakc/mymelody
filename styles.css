@@ -1,18 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    }
-    .container {
-    max-width: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* border: 5px solid red; */
-    }
+
     h1 {
     text-align: center;
     }
@@ -43,3 +29,64 @@ body {
     button:hover {
     background-color: #0056b3;
     }
+
+body{ /* This changes the body background color to blue with the text being black and font set to Helvetica*/
+  background-color: #2E3F60;
+  color: black;
+  font-family: 'Helvetica', sans-serif;
+  margin:0px;
+  padding: 0px;
+}
+
+.navbar{/* This sets the color for the navigation bar*/
+  background-color: #3E598E;
+  overflow:hidden;
+}
+
+.navbar ul{ /* This sets the color,list style, and overal display of the navigation bars unordered list form*/
+  color: #414A5C;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px;
+}
+
+.navbar li{ /* This bods all the text in the navigation list and sets the bottom margin */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.navbar ul li {/* This sets margin for unordered list */
+    margin-right: 20px;
+}
+
+.navbar ul li a { /* This sets the display to a square, black format for the navgiation links and centers them together */
+    display: block;
+    color: black; 
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+
+.center-head{ /* This centers the heading and text with it from the HTML*/
+  text-align: center;
+}
+a{ /* This colors the links*/
+  color: #243046
+}
+
+
+title{ /* This colors the title and sets the font size to 36 */
+  color: grey;
+  font-size: 36px;
+}
+
+h2{ /* Changes heading 2 color to black */
+  color: black;
+}
+
+.bold-label{ /* Bolds the labels and makes the font size 24 pixels */
+  font-weight: bold;
+  font-size: 24px;
+}
