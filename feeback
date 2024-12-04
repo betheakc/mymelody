@@ -6,6 +6,20 @@
     <title>Registration Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<header>
+<h1><img src="pictures/logo.png" alt="Logo" width="100" height="100">My Melody</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="feeback.html">Feedback</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="song.html">Song Suggestion</a></li>
+            <li><a href="playlist.html">Playlist</a></li>
+            <li><a href="artist.html">Artist Profiles</a></li>
+        </ul>
+    </nav>
+</header>
     <body>
     <div class="container">
         <h1>Registration Form</h1>
